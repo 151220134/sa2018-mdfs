@@ -19,13 +19,17 @@
     - "下载"文件
     ![](https://github.com/151220134/sa2018-mdfs/blob/master/image/%E4%B8%8B%E8%BD%BD%E6%96%87%E4%BB%B6.png)
     - 删除文件
+    
     删除前
     ![](https://github.com/151220134/sa2018-mdfs/blob/master/image/%E5%88%A0%E9%99%A4%E6%96%87%E4%BB%B6.png)
+    
     删除后
     ![](https://github.com/151220134/sa2018-mdfs/blob/master/image/%E5%88%A0%E9%99%A4%E6%96%87%E4%BB%B6%E5%90%8E.png)
     - 删除文件夹
+    
     删除前
     ![](https://github.com/151220134/sa2018-mdfs/blob/master/image/%E5%88%A0%E9%99%A4%E6%96%87%E4%BB%B6%E5%A4%B9.png)
+    
     删除后
     ![](https://github.com/151220134/sa2018-mdfs/blob/master/image/%E5%88%A0%E9%99%A4%E6%96%87%E4%BB%B6%E5%A4%B9%E5%90%8E.png)
 - DataNode
