@@ -45,7 +45,7 @@
 - DataNode
     - 在/datanode目录下，执行`mvn spring-boot:run -Dserver.port=xxxx`（多个DataNode的端口号可自行配置）启动DataNode
 不提供新建和删除文件夹功能
-    - 分布式
+    - 分布式特性的体现：x.zip文件按照4B大小被分为三个Block
     ![](https://github.com/151220134/sa2018-mdfs/blob/master/image/datanode1.0.png)
     ![](https://github.com/151220134/sa2018-mdfs/blob/master/image/datanode1.1.png)
     ![](https://github.com/151220134/sa2018-mdfs/blob/master/image/datanode1.2.png)
