@@ -9,6 +9,7 @@
     - 用POSTMAN对NameNode进行测试
     - 目前版本不支持新建文件夹功能，默认有根目录以及根目录下有一个/usr；目前版本只支持String文件
     - 上传内容为`zxcvbndfgbh`的"文件"x.zip
+    ![][https://github.com/151220134/sa2018-mdfs/blob/master/image/%E4%B8%8A%E4%BC%A0%E6%96%87%E4%BB%B6.png]
     - 同一路径中不能有文件名相同的文件
     - 查看指定路径下的文件（不支持查看根目录）
     - 查看所有文件
