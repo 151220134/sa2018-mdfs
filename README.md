@@ -1,6 +1,12 @@
 # sa2018-mdfs
 基于微服务架构，设计一个分布式文件系统。
 
+## 实现功能
+- 基于Spring Boot实现NameNode和DataNode两个服务，在Spring Cloud微服务平台上运行一个NameNode实例和多个DataNode实例（无需考虑NameNode单点失效问题）
+- NameNode提供REST风格接口与用户交互，实现用户文件上传、下载、删除，DataNode不与用户直接交互（无需考虑NameNode的IO瓶颈问题）
+- NameNode将用户上传文件文件拆为固定大小的存储块，分散存储在各个DataNode上，每个块保存若干副本。块大小和副本数可通过系统参数配置。
+- DataNode服务可弹性扩展，每次启动一个DataNode服务NameNode可发现并将其纳入整个系统
+
 ## 使用说明
 - NameNode
     - 在/namenode目录下，执行`mvn spring-boot:run`，启动NameNode
