@@ -13,17 +13,21 @@
     - 同一路径中不能有文件名相同的文件
     ![](https://github.com/151220134/sa2018-mdfs/blob/master/image/%E5%90%8C%E5%90%8D%E6%96%87%E4%BB%B6.png)
     - 查看指定路径下的文件（不支持查看根目录）
-    
     - 查看所有文件
     - "下载"文件
     ![](https://github.com/151220134/sa2018-mdfs/blob/master/image/%E4%B8%8B%E8%BD%BD%E6%96%87%E4%BB%B6.png)
     - 删除文件
+    
+    ![](https://github.com/151220134/sa2018-mdfs/blob/master/image/%E5%88%A0%E9%99%A4%E6%96%87%E4%BB%B6%E5%90%8E.png)
     - 删除文件夹
+    ![](https://github.com/151220134/sa2018-mdfs/blob/master/image/%E5%88%A0%E9%99%A4%E6%96%87%E4%BB%B6%E5%A4%B9.png)
+    ![](https://github.com/151220134/sa2018-mdfs/blob/master/image/%E5%88%A0%E9%99%A4%E6%96%87%E4%BB%B6%E5%A4%B9%E5%90%8E.png)
 - DataNode
     - 在/datanode目录下，执行`mvn spring-boot:run -Dserver.port=xxxx`（多个DataNode的端口号可自行配置）启动DataNode
 不提供新建和删除文件夹功能
-
-添加文件请用fileContent，只支持字符串
-
+    - 分布式
+    ![](https://github.com/151220134/sa2018-mdfs/blob/master/image/datanode1.0.png)
+    ![](https://github.com/151220134/sa2018-mdfs/blob/master/image/datanode1.1.png)
+    ![](https://github.com/151220134/sa2018-mdfs/blob/master/image/datanode1.2.png)
 
 #### 最后，感谢罗雯波的倾情指导，让我得以在DDL之前勉强完成这个大作业
