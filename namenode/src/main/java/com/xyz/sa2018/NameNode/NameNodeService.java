@@ -128,11 +128,11 @@ public class NameNodeService {
         List<DataNode> dataNodeList =  BlocksMap.get(block.getId());
         //REPLICA_NUM
         if(dataNodeList.size()==0) System.err.println("no datanode");
-        if(dataNodeList.size()<REPLICA_NUM){
+        if(dataNodeList.size()<REPLICA_NUM+1){
             block2Nodes.add(dataNodeList.get(0));
         }
         else{
-            for(int i=0;i<REPLICA_NUM;i++){
+            for(int i=0;i<REPLICA_NUM+1;i++){
                 block2Nodes.add(dataNodeList.get(i));
             }
         }
@@ -227,7 +227,7 @@ public class NameNodeService {
     }
 
     public void setBlock(BlockInfo block) {
-        for (int i = 0; i < dataNodeList.size() && i < REPLICA_NUM; i ++) {
+        for (int i = 0; i < dataNodeList.size() && i < REPLICA_NUM+1; i ++) {
             DataNode dataNode = dataNodeList.get(i);
             List<DataNode> dataNodeList = BlocksMap.get(block.getId());
             if (dataNodeList == null) {
